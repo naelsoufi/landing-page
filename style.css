@@ -151,3 +151,33 @@ nav a {
     font-weight: bold;
     text-align: right;
 }
+
+/*-----*/
+/* CTA */
+/*-----*/
+
+#cta {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cta article {
+    background-color: var(--accent-color);
+    color: white;
+    width: 60%;
+    padding: 48px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+#cta h2, #cta p {
+    margin: 0px;
+}
+
+.button-border {
+    border: solid white 1px;
+}
