@@ -125,3 +125,29 @@ nav a {
 .feature img {
     border-radius: 4px;
 }
+
+/*-------*/
+/* Quote */
+/*-------*/
+
+#quote {
+    height: 400px;
+    background-color: #e5e7eb;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote blockquote {
+    margin-bottom: 16px;
+}
+
+#quote figcaption {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+}
