@@ -1,0 +1,95 @@
+/* Some Reset */
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    --dark-bg-color: #1F2937;
+    --accent-color: #3882F6;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*--------*/
+/* Header */
+/*--------*/
+header {
+    background-color: var(--dark-bg-color);
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0px 100px;
+}
+
+nav {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 64px;
+}
+
+nav :nth-of-type(2) {
+    margin-left: auto;
+}
+
+#logo {
+    font-size: 24px;
+}
+
+#logo, h1 {
+    color: #FEFAF8;
+    font-weight: 900;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+#hero {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+#hero > * {
+    width: 50%;
+}
+
+#hero h1 {
+    font-size: 48px;
+    margin: 0px;
+    margin-bottom: 4px;
+}
+
+#hero p {
+    margin: 0px;
+    margin-bottom: 32px;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: var(--accent-color);
+    padding: 8px 32px;
+    border-radius: 4px;
+    font-weight: bold;
+}
